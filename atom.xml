@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HAO &amp; YUE</title>
+  <subtitle>Wang Hao&#39;s Website</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://haoziapple.github.io/"/>
+  <updated>2017-07-09T14:55:21.806Z</updated>
+  <id>https://haoziapple.github.io/</id>
+  
+  <author>
+    <name>Wang Hao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my-learn-plan</title>
+    <link href="https://haoziapple.github.io/2017/07/09/my-learn-plan/"/>
+    <id>https://haoziapple.github.io/2017/07/09/my-learn-plan/</id>
+    <published>2017-07-09T14:36:34.000Z</published>
+    <updated>2017-07-09T14:55:21.806Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="学习计划"><a href="#学习计划" class="headerlink" title="学习计划"></a>学习计划</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;学习计划&quot;&gt;&lt;a href=&quot;#学习计划&quot; class=&quot;headerlink&quot; title=&quot;学习计划&quot;&gt;&lt;/a&gt;学习计划&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="个人计划" scheme="https://haoziapple.github.io/categories/plan/"/>
+    
+    
+      <category term="note" scheme="https://haoziapple.github.io/tags/note/"/>
+    
+      <category term="plan" scheme="https://haoziapple.github.io/tags/plan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>frontend-backend</title>
+    <link href="https://haoziapple.github.io/2017/07/08/frontend-backend/"/>
+    <id>https://haoziapple.github.io/2017/07/08/frontend-backend/</id>
+    <published>2017-07-08T13:44:33.000Z</published>
+    <updated>2017-07-22T13:38:09.186Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><a href="#前后端架构思考">前后端架构思考</a><ul>
+<li><a href="#初步规划">初步规划</a></li>
+<li><a href="#待开发项">待开发项</a></li>
+<li><a href="#思考中">思考中</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="前后端架构思考"><a href="#前后端架构思考" class="headerlink" title="前后端架构思考"></a>前后端架构思考</h1><h2 id="初步规划"><a href="#初步规划" class="headerlink" title="初步规划"></a>初步规划</h2><ul>
+<li>前端jsp或模板+java请求接口</li>
+<li>前端使用新的框架：Vue.js或React.js框架或Angular?</li>
+<li>前端工作组的合并：原前端与PC、WAP</li>
+<li>后端接口调整，独立的鉴权服务，使用jwt实现单点登陆</li>
+<li>接口提供整合与管道功能</li>
+<li>实现服务网关，路由，鉴权，日志功能</li>
+<li>接口分版本管理，v1，v2</li>
+<li>接口暴露的两种形式：通过Controller暴露，通过远程调用暴露(都需要有明确文档！)</li>
+<li>接口请求需要有元信息：requestID，userID，timestamp，ip</li>
+</ul>
+<h2 id="待开发项"><a href="#待开发项" class="headerlink" title="待开发项"></a>待开发项</h2><ul>
+<li>服务网关</li>
+<li>缓存的设计、实现、与整合方式</li>
+<li>服务管理后台：日志，服务监控（类似springboot-admin）</li>
+</ul>
+<h2 id="思考中"><a href="#思考中" class="headerlink" title="思考中"></a>思考中</h2><ul>
+<li>配置中心（与运维的整合方式？）</li>
+<li>独立的鉴权服务</li>
+<li>消息总线bus用以提供异步调用</li>
+<li>VO,PO的设计以及才持久化层的动态SQL（最终实现PO层不需要建bean，不需要写SQL）</li>
+<li>接口数据方式的改变:没必要全部post请求，数据都以json放在body里</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#前后端架构思考&quot;&gt;前后端架构思考&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#初步规划&quot;&gt;初步规划&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#待开发项&quot;&gt;待开发项&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#思考中&quot;&gt;思考中&lt;/a&gt;&lt;/
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>my-saturday</title>
+    <link href="https://haoziapple.github.io/2017/07/01/my-saturday/"/>
+    <id>https://haoziapple.github.io/2017/07/01/my-saturday/</id>
+    <published>2017-07-01T13:42:25.000Z</published>
+    <updated>2017-07-16T02:14:20.591Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="充实的星期六"><a href="#充实的星期六" class="headerlink" title="充实的星期六"></a>充实的星期六</h1><p>在新买的的华硕笔记本上安装了基本的开发环境：<br>java + node + vs Code + Git</p>
+<p>使用Hexo写博客时发现两个问题：<br>1.自定义的主题需要重新克隆设置<br>2.hexo deploy之后，Git pages之前的提交记录不见了，怀疑是不是换了SSH key的原因</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;充实的星期六&quot;&gt;&lt;a href=&quot;#充实的星期六&quot; class=&quot;headerlink&quot; title=&quot;充实的星期六&quot;&gt;&lt;/a&gt;充实的星期六&lt;/h1&gt;&lt;p&gt;在新买的的华硕笔记本上安装了基本的开发环境：&lt;br&gt;java + node + vs Code + Git&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://haoziapple.github.io/2017/07/01/hello-world/"/>
+    <id>https://haoziapple.github.io/2017/07/01/hello-world/</id>
+    <published>2017-07-01T13:18:42.350Z</published>
+    <updated>2017-07-01T13:18:42.350Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My First Blog</title>
+    <link href="https://haoziapple.github.io/2017/06/30/My-First-Blog/"/>
+    <id>https://haoziapple.github.io/2017/06/30/My-First-Blog/</id>
+    <published>2017-06-30T08:46:01.000Z</published>
+    <updated>2017-07-01T13:18:42.350Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="博客重开"><a href="#博客重开" class="headerlink" title="博客重开"></a>博客重开</h1><p>感谢我的老婆玥玥，博客又重新开了起来<br>希望能一直写下去~</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/wedding.jpg" alt="wedding img" title="">
+                </div>
+                <div class="image-caption">wedding img</div>
+            </figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;博客重开&quot;&gt;&lt;a href=&quot;#博客重开&quot; class=&quot;headerlink&quot; title=&quot;博客重开&quot;&gt;&lt;/a&gt;博客重开&lt;/h1&gt;&lt;p&gt;感谢我的老婆玥玥，博客又重新开了起来&lt;br&gt;希望能一直写下去~&lt;/p&gt;
+&lt;figure class=&quot;image-bubbl
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
