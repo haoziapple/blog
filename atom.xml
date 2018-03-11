@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://haoziapple.github.io/"/>
-  <updated>2017-11-04T12:56:25.726Z</updated>
+  <updated>2017-11-08T15:33:29.576Z</updated>
   <id>https://haoziapple.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://haoziapple.github.io/life/wedding-info/"/>
     <id>https://haoziapple.github.io/life/wedding-info/</id>
     <published>2017-10-14T14:17:51.000Z</published>
-    <updated>2017-11-04T12:56:25.726Z</updated>
+    <updated>2017-11-08T15:33:29.576Z</updated>
     
     <content type="html"><![CDATA[<h2 id="物资采买"><a href="#物资采买" class="headerlink" title="物资采买"></a>物资采买</h2><ul>
 <li><p>待采买：</p>
@@ -110,7 +110,7 @@
 </ul>
 </li>
 <li>17桌：<ul>
-<li>刘伟夫妇、伴郎（王超逸）、姜世驎、蒋浩强夫妇、殷骁晨、周涛、郭建、薛骁、张鹏（<strong>11人</strong>）</li>
+<li>刘伟夫妇、伴郎（王超逸）、姜世驎、蒋浩强夫妇、殷骁晨、周涛、郭建、薛骁（10人）</li>
 </ul>
 </li>
 <li>18桌：<ul>
@@ -170,7 +170,7 @@
 </ul>
 </li>
 <li>35桌：<ul>
-<li>邹厚清、黄南基、任红、周建国、亢秀玲、鄢超、喻小宝、肖满青（<strong>8人</strong>）</li>
+<li>邹厚清、黄南基、任红、周建国、亢秀玲、鄢超、喻小宝、肖满青、张鹏（<strong>9人</strong>）</li>
 </ul>
 </li>
 <li>36桌：<ul>
@@ -407,8 +407,8 @@
     <title>Hello World</title>
     <link href="https://haoziapple.github.io/hello-world/"/>
     <id>https://haoziapple.github.io/hello-world/</id>
-    <published>2017-07-01T13:18:42.350Z</published>
-    <updated>2017-07-01T13:18:42.350Z</updated>
+    <published>2017-07-01T13:18:42.351Z</published>
+    <updated>2017-07-01T13:18:42.351Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -435,7 +435,7 @@
     <link href="https://haoziapple.github.io/My-First-Blog/"/>
     <id>https://haoziapple.github.io/My-First-Blog/</id>
     <published>2017-06-30T08:46:01.000Z</published>
-    <updated>2017-07-01T13:18:42.350Z</updated>
+    <updated>2017-07-01T13:18:42.351Z</updated>
     
     <content type="html"><![CDATA[<h1 id="博客重开"><a href="#博客重开" class="headerlink" title="博客重开"></a>博客重开</h1><p>感谢我的老婆玥玥，博客又重新开了起来<br>希望能一直写下去~</p>
 <figure class="image-bubble">
