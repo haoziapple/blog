@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>HAO &amp; YUE</title>
-  <subtitle>Wang Hao&#39;s Website</subtitle>
+  <title>Wang Hao -- A rampage coder！</title>
+  <subtitle>耗子小王的个人网站</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://haoziapple.github.io/"/>
-  <updated>2017-11-08T15:33:29.576Z</updated>
+  <updated>2018-07-03T09:46:52.303Z</updated>
   <id>https://haoziapple.github.io/</id>
   
   <author>
@@ -16,207 +16,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>婚礼筹备信息</title>
-    <link href="https://haoziapple.github.io/life/wedding-info/"/>
-    <id>https://haoziapple.github.io/life/wedding-info/</id>
-    <published>2017-10-14T14:17:51.000Z</published>
-    <updated>2017-11-08T15:33:29.576Z</updated>
+    <title>Hello World</title>
+    <link href="https://haoziapple.github.io/hello-world/"/>
+    <id>https://haoziapple.github.io/hello-world/</id>
+    <published>2018-07-03T09:46:52.302Z</published>
+    <updated>2018-07-03T09:46:52.303Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="物资采买"><a href="#物资采买" class="headerlink" title="物资采买"></a>物资采买</h2><ul>
-<li><p>待采买：</p>
-<ul>
-<li>压床娃娃一对</li>
-<li>红盆需要再买一个凑成一对–石林喜铺</li>
-<li>婚礼甜品–网路购买：翻糖工作室(大行宫),色调以粉色为主</li>
-</ul>
-</li>
-<li><p>喜糖：</p>
-<ul>
-<li>采买700份，已追加100份</li>
-<li>11.05号取货，已交900定金</li>
-</ul>
-</li>
-<li>红包：<ul>
-<li>一块钱×200个=200</li>
-<li>5块钱×114个=570</li>
-<li>10块钱×50张=500</li>
-<li>三个大红包58，68，88，婚礼宴席上用</li>
-<li>大红包5个，小红包50个，接亲时用</li>
-</ul>
-</li>
-<li>杂物：<ul>
-<li>礼花：16根</li>
-<li>红地毯：20米+20米</li>
-<li>其他：拉花，彩灯，气球，喜字，子孙桶，龙凤杯，水瓶一对</li>
-</ul>
-</li>
-<li>婚礼娃娃：大娃娃2个，中娃娃15个，小娃娃50个<h2 id="任务分配"><a href="#任务分配" class="headerlink" title="任务分配"></a>任务分配</h2></li>
-<li>双方总联络人：男方–李辉，女方–王珏</li>
-<li>摄像车：王昊同事–张鹏，本田XRV，男方小舅舅李恽跟车</li>
-<li><a href="http://j.map.baidu.com/xx4TN" target="_blank" rel="external">接亲路线图</a></li>
-<li><a href="http://j.map.baidu.com/tw5TN" target="_blank" rel="external">接亲返回路线图</a></li>
-</ul>
-<h2 id="参加人员"><a href="#参加人员" class="headerlink" title="参加人员"></a>参加人员</h2><ul>
-<li>1桌：<ul>
-<li>新郎、新娘、双方父母、女方爷爷奶奶、双方外婆、伴娘（王晓雪）、伴娘（杨超堃）（<strong>12人</strong>）</li>
-</ul>
-</li>
-<li>2桌：<ul>
-<li>王伟中、吕卫东、陶新夫妇、潘强夫妇、张本固夫妇、孙谦夫妇、严小平（<strong>11人</strong>）</li>
-</ul>
-</li>
-<li>3桌：<ul>
-<li>王建军全家、李辉夫妇、李恽全家、伴郎（李正石）（10人）</li>
-</ul>
-</li>
-<li>5桌：<ul>
-<li>卢兵、王靖、吉东成、翟先鸣、申亚军、肖华银、韩小涛、朱振华、曹厚意、郭小虎（10人）</li>
-</ul>
-</li>
-<li>6桌：<ul>
-<li>张宜龙、刘翊群、何雪德、王玮、胡伟、马兆森、顾惟靖夫妇、陈建军夫妇（10人）</li>
-</ul>
-</li>
-<li>7桌：<ul>
-<li>杨定华、李俊华、刘瑞清、罗文正、鹿存良、顾雪莲、袁竹、樊维、李刚、宋振宁（10人）</li>
-</ul>
-</li>
-<li>8桌：<ul>
-<li>张友生夫妇、薛永业夫妇、秦益斌全家、杨川宁夫妇（10人）</li>
-</ul>
-</li>
-<li>9桌：<ul>
-<li>甄诚夫妇、黄昭夫妇、郑礼国、王思超、路尧、张天驰、赵欣夫妇（10人）</li>
-</ul>
-</li>
-<li>10桌：<ul>
-<li>王建卫夫妇、吴海乐夫妇、杨明夫妇、戚武林全家、李雷鸣（10人）</li>
-</ul>
-</li>
-<li>11桌：<ul>
-<li>赵丽、万箐、江峰、胡竹青、孙景明、李博、智通银全家、程磊夫妇（<strong>11人</strong>）</li>
-</ul>
-</li>
-<li>12桌：<ul>
-<li>周宽义夫妇、唐大喜夫妇、韩龙夫妇、王江平夫妇、陆江辉、越南（10人）</li>
-</ul>
-</li>
-<li>15桌：<ul>
-<li>陈亚平夫妇、陈有乐夫妇、高峰夫妇、李戈、朱强（<strong>8人</strong>）</li>
-</ul>
-</li>
-<li>16桌：<ul>
-<li>刘健夫妇、曹育农夫妇、李家旺夫妇、陈德爱夫妇、席建强（<strong>9人</strong>）</li>
-</ul>
-</li>
-<li>17桌：<ul>
-<li>刘伟夫妇、伴郎（王超逸）、姜世驎、蒋浩强夫妇、殷骁晨、周涛、郭建、薛骁（10人）</li>
-</ul>
-</li>
-<li>18桌：<ul>
-<li>陈延宁夫妇、冯健夫妇、谢泳夫妇、杨健夫妇、施阳夫妇（10人）</li>
-</ul>
-</li>
-<li>19桌：<ul>
-<li>王建荣全家、王建红全家（10人）</li>
-</ul>
-</li>
-<li>20桌：<ul>
-<li>魏勇全家、魏国荣夫妇、魏宝利全家、魏国珠全家（<strong>12人</strong>）</li>
-</ul>
-</li>
-<li>21桌：<ul>
-<li>常强富、陈超、徐洪喜、祝宝发、王维彩、赵中亚、李宁、余启东、李晓林、佟恺、姜友德（<strong>11人</strong>）</li>
-</ul>
-</li>
-<li>22桌：<ul>
-<li>耿军强全家、耿麦贤全家、赵军全家（10人）</li>
-</ul>
-</li>
-<li>23桌：<ul>
-<li>李廷夫妇、李禹洁、侯雨颀、孙倩、孙昊、金星、石静、黄云鹏、石婷（10人）</li>
-</ul>
-</li>
-<li>26桌：<ul>
-<li>王鸿祥全家、王珏全家、陈虎夫妇（10人）</li>
-</ul>
-</li>
-<li>27桌：<ul>
-<li>张坚、吴佳、朱凯锋、季嵘、毕晓婷、陈萍萍夫妇、潘志鹏、陶韬夫妇（10人）</li>
-</ul>
-</li>
-<li>28桌：<ul>
-<li>王小京全家、王小明夫妇、王小权全家（<strong>9人</strong>）</li>
-</ul>
-</li>
-<li>29桌：<ul>
-<li>魏玲夫妇、魏莉夫妇、王晓阳夫妇、吕社、许登科、张苏娟（<strong>9人</strong>）</li>
-</ul>
-</li>
-<li>30桌：<ul>
-<li>张志明夫妇、胡子扬夫妇、唐宜汇、李尉宙夫妇、顾文伟、周小峰（<strong>9人</strong>）</li>
-</ul>
-</li>
-<li>31桌：<ul>
-<li>常郁青夫妇、刘庆河夫妇、王成理夫妇、庞辉夫妇、邵雪桂、吴龙华（10人）</li>
-</ul>
-</li>
-<li>32桌：<ul>
-<li>彭丽娜、徐唯娜、顾苑、尹亦农、陶建华、孙斐、杨庆饶、施向群夫妇、徐英俊（10人）</li>
-</ul>
-</li>
-<li>33桌：<ul>
-<li>乐松夫妇、宛学光、于因建夫妇、张宏夫妇、马照进全家（10人）</li>
-</ul>
-</li>
-<li>35桌：<ul>
-<li>邹厚清、黄南基、任红、周建国、亢秀玲、鄢超、喻小宝、肖满青、张鹏（<strong>9人</strong>）</li>
-</ul>
-</li>
-<li>36桌：<ul>
-<li>郑培铁夫妇、吕建明夫妇、胡原福、傅桂兰及刘声平夫妇、项新忠夫妇（10人）</li>
-</ul>
-</li>
-<li>38桌：<ul>
-<li>卢卫权全家、朱芝兰夫妇、王卫华全家（<strong>8人</strong>）</li>
-</ul>
-</li>
-<li>39桌：<ul>
-<li>张靓、张晶妍夫妇、杨凤珠夫妇、李萍携土豆、邓亚萍、刘娅（<strong>9人</strong>）</li>
-</ul>
-</li>
-</ul>
-<h2 id="座位示意图"><a href="#座位示意图" class="headerlink" title="座位示意图"></a>座位示意图</h2><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/settings.jpg" alt="settings img" title="">
-                </div>
-                <div class="image-caption">settings img</div>
-            </figure>
-<h2 id="安排信息"><a href="#安排信息" class="headerlink" title="安排信息"></a>安排信息</h2><ul>
-<li>歌曲</li>
-<li>婚礼节目<ul>
-<li>新娘演唱风吹麦浪</li>
-<li>李正石舞蹈</li>
-</ul>
-</li>
-</ul>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;物资采买&quot;&gt;&lt;a href=&quot;#物资采买&quot; class=&quot;headerlink&quot; title=&quot;物资采买&quot;&gt;&lt;/a&gt;物资采买&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;待采买：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;压床娃娃一对&lt;/li&gt;
-&lt;li&gt;红盆需要再买一个凑成一对–石林喜铺&lt;/
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
     
     </summary>
     
-      <category term="生活" scheme="https://haoziapple.github.io/categories/life/"/>
-    
-    
-      <category term="备忘录" scheme="https://haoziapple.github.io/tags/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
     
   </entry>
   
@@ -225,7 +47,7 @@
     <link href="https://haoziapple.github.io/plan/new-plan/"/>
     <id>https://haoziapple.github.io/plan/new-plan/</id>
     <published>2017-08-29T10:01:04.000Z</published>
-    <updated>2017-09-02T14:26:43.105Z</updated>
+    <updated>2018-07-03T09:46:52.309Z</updated>
     
     <content type="html"><![CDATA[<h1 id="个人计划-记录计划，努力执行"><a href="#个人计划-记录计划，努力执行" class="headerlink" title="个人计划:记录计划，努力执行"></a>个人计划:记录计划，努力执行</h1><blockquote>
 <p>hexo new plan “new plan” –path plan/new-plan</p>
@@ -251,7 +73,7 @@
     <link href="https://haoziapple.github.io/life/new-life/"/>
     <id>https://haoziapple.github.io/life/new-life/</id>
     <published>2017-08-29T10:00:30.000Z</published>
-    <updated>2017-09-02T14:26:43.076Z</updated>
+    <updated>2018-07-03T09:46:52.305Z</updated>
     
     <content type="html"><![CDATA[<h1 id="生活-记录生活点滴"><a href="#生活-记录生活点滴" class="headerlink" title="生活:记录生活点滴"></a>生活:记录生活点滴</h1><blockquote>
 <p>hexo new life “new life” –path life/new-life</p>
@@ -277,7 +99,7 @@
     <link href="https://haoziapple.github.io/programming/new-code/"/>
     <id>https://haoziapple.github.io/programming/new-code/</id>
     <published>2017-08-29T09:58:14.000Z</published>
-    <updated>2017-09-02T14:26:43.127Z</updated>
+    <updated>2018-07-03T09:46:52.312Z</updated>
     
     <content type="html"><![CDATA[<h1 id="编程-编程不止"><a href="#编程-编程不止" class="headerlink" title="编程:编程不止"></a>编程:编程不止</h1><blockquote>
 <p>hexo new code “new code” –path programming/new-code</p>
@@ -303,7 +125,7 @@
     <link href="https://haoziapple.github.io/plan/my-learn-plan/"/>
     <id>https://haoziapple.github.io/plan/my-learn-plan/</id>
     <published>2017-07-09T14:36:34.000Z</published>
-    <updated>2017-09-02T14:26:43.102Z</updated>
+    <updated>2018-07-03T09:46:52.308Z</updated>
     
     <content type="html"><![CDATA[<h1 id="学习计划"><a href="#学习计划" class="headerlink" title="学习计划"></a>学习计划</h1>]]></content>
     
@@ -327,7 +149,7 @@
     <link href="https://haoziapple.github.io/programming/frontend-backend/"/>
     <id>https://haoziapple.github.io/programming/frontend-backend/</id>
     <published>2017-07-08T13:44:33.000Z</published>
-    <updated>2017-09-02T14:26:43.125Z</updated>
+    <updated>2018-07-03T09:46:52.311Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><a href="#前后端架构思考">前后端架构思考</a><ul>
@@ -384,7 +206,7 @@
     <link href="https://haoziapple.github.io/life/my-saturday/"/>
     <id>https://haoziapple.github.io/life/my-saturday/</id>
     <published>2017-07-01T13:42:25.000Z</published>
-    <updated>2017-09-02T14:26:43.073Z</updated>
+    <updated>2018-07-03T09:46:52.304Z</updated>
     
     <content type="html"><![CDATA[<h1 id="充实的星期六"><a href="#充实的星期六" class="headerlink" title="充实的星期六"></a>充实的星期六</h1><p>在新买的的华硕笔记本上安装了基本的开发环境：<br>java + node + vs Code + Git</p>
 <p>使用Hexo写博客时发现两个问题：<br>1.自定义的主题需要重新克隆设置<br>2.hexo deploy之后，Git pages之前的提交记录不见了，怀疑是不是换了SSH key的原因</p>
@@ -404,38 +226,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://haoziapple.github.io/hello-world/"/>
-    <id>https://haoziapple.github.io/hello-world/</id>
-    <published>2017-07-01T13:18:42.351Z</published>
-    <updated>2017-07-01T13:18:42.351Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>My First Blog</title>
     <link href="https://haoziapple.github.io/My-First-Blog/"/>
     <id>https://haoziapple.github.io/My-First-Blog/</id>
     <published>2017-06-30T08:46:01.000Z</published>
-    <updated>2017-07-01T13:18:42.351Z</updated>
+    <updated>2018-07-03T09:46:52.302Z</updated>
     
     <content type="html"><![CDATA[<h1 id="博客重开"><a href="#博客重开" class="headerlink" title="博客重开"></a>博客重开</h1><p>感谢我的老婆玥玥，博客又重新开了起来<br>希望能一直写下去~</p>
 <figure class="image-bubble">

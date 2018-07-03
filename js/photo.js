@@ -59,10 +59,13 @@ $.getJSON("output.json", function (data) {
             var row = '<div class="img-box-ul' + rowNum + ' row"></div>';
             $(".img-box").append(row);
         }
+    };
+    for (var i = 0; i < data.length; i++){
         if ((i + 1) % 20 == 0) {
             page += 1;
             var tab = '<li class="mylist"><a href="#">' + page + '</a></li>';
             $("ul.pagination").append(tab);
+            console.log(page)
         }
     };
 });

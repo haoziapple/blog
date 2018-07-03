@@ -21,7 +21,9 @@ function loadMyPhotos(page) {
             //     '<img class="img-responsive" src="http://osus8erpv.bkt.clouddn.com/' + data[i] + '?raw=true">' +
             //     '</div>';
             li = '<div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">' +
-            '<img class="img-responsive" src="http://file.xiao6.com/img/' + data[i] + '?raw=true">' +
+            '<a href="http://file.xiao6.com/img/' + data[i] + '" title="Orange" target="_blank" rel="external">' +
+            '<img class="img-responsive photo" src="http://file.xiao6.com/img/' + data[i] + '?raw=true">' +
+            '</a>' +
             '</div>';
             $(".img-box-ul" + rowNum).append(li);
 
@@ -51,7 +53,9 @@ $.getJSON("weibo-xiao6.json", function (data) {
         //     '<img class="img-responsive" src="http://osus8erpv.bkt.clouddn.com/' + data[i] + '?raw=true">' +
         //     '</div>';
         li = '<div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">' +
-            '<img class="img-responsive" src="http://file.xiao6.com/img/' + data[i] + '?raw=true">' +
+            '<a href="http://file.xiao6.com/img/' + data[i] + '" title="Orange" target="_blank" rel="external">' +
+            '<img class="img-responsive photo" src="http://file.xiao6.com/img/' + data[i] + '?raw=true">' +
+            '</a>' +
             '</div>';
         $(".img-box-ul" + rowNum).append(li);
         if ((i + 1) % 4 == 0) {
@@ -59,10 +63,13 @@ $.getJSON("weibo-xiao6.json", function (data) {
             var row = '<div class="img-box-ul' + rowNum + ' row"></div>';
             $(".img-box").append(row);
         }
+    };
+    for (var i = 0; i < data.length; i++){
         if ((i + 1) % 20 == 0) {
             page += 1;
             var tab = '<li class="mylist"><a href="#">' + page + '</a></li>';
             $("ul.pagination").append(tab);
+            console.log(page)
         }
     };
 });
