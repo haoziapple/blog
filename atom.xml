@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://haoziapple.github.io/"/>
-  <updated>2018-07-03T12:38:27.489Z</updated>
+  <updated>2018-07-18T10:58:43.380Z</updated>
   <id>https://haoziapple.github.io/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java源码阅读(1)--ArrayList和Vector</title>
+    <link href="https://haoziapple.github.io/programming/read-jdk1/"/>
+    <id>https://haoziapple.github.io/programming/read-jdk1/</id>
+    <published>2018-07-18T09:48:48.000Z</published>
+    <updated>2018-07-18T10:58:43.380Z</updated>
+    
+    <content type="html"><![CDATA[<p>java源码阅读的工作开始了，先从简单的入手，看了看ArrayList和Vector两个类。总的来说，两个类很相似，都继承AbstractList，实现了List接口：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Vector</span>&lt;<span class="title">E</span>&gt;</span></div><div class="line">    <span class="keyword">extends</span> <span class="title">AbstractList</span>&lt;<span class="title">E</span>&gt;</div><div class="line">    <span class="keyword">implements</span> <span class="title">List</span>&lt;<span class="title">E</span>&gt;, <span class="title">RandomAccess</span>, <span class="title">Cloneable</span>, <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ArrayList</span>&lt;<span class="title">E</span>&gt; <span class="keyword">extends</span> <span class="title">AbstractList</span>&lt;<span class="title">E</span>&gt;</span></div><div class="line">        <span class="keyword">implements</span> <span class="title">List</span>&lt;<span class="title">E</span>&gt;, <span class="title">RandomAccess</span>, <span class="title">Cloneable</span>, <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span></div></pre></td></tr></table></figure>
+<p>两个类底层都是维护一个Object[]的数组，初始长度是10。最大的区别是Vector里面的方法都是同步的，添加了synchronized修饰符，效率比较低，所以平时编程中较少使用Vector。<br>依稀记得以前翻thinking in java的时候，里面说Vector是遗留代码，不建议使用，回去以后再翻翻看。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;java源码阅读的工作开始了，先从简单的入手，看了看ArrayList和Vector两个类。总的来说，两个类很相似，都继承AbstractList，实现了List接口：&lt;br&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cla
+    
+    </summary>
+    
+      <category term="编程" scheme="https://haoziapple.github.io/categories/programming/"/>
+    
+    
+      <category term="java源码" scheme="https://haoziapple.github.io/tags/java%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
   
   <entry>
     <title>年中--新的起点</title>
@@ -190,9 +215,9 @@
       <category term="个人计划" scheme="https://haoziapple.github.io/categories/plan/"/>
     
     
-      <category term="plan" scheme="https://haoziapple.github.io/tags/plan/"/>
-    
       <category term="note" scheme="https://haoziapple.github.io/tags/note/"/>
+    
+      <category term="plan" scheme="https://haoziapple.github.io/tags/plan/"/>
     
   </entry>
   

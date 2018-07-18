@@ -13,24 +13,24 @@
     
     
     
-    <title>年中--新的起点 | Wang Hao -- A rampage coder！ | 耗子小王的个人网站</title>
+    <title>java源码阅读(1)--ArrayList和Vector | Wang Hao -- A rampage coder！ | 耗子小王的个人网站</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="plan">
-    <meta name="description" content="年中计划 人生就是不断的出发  今年已过一半，最近总感觉需要沉下来好好总结了，正好趁着出差的机会，沉淀一下。 年中总结来新公司也已经半年了，先总结一下工作成果：  日志格式统一化：logback+ELK kibana的一些二次开发（换换样式，版本6.2.2） CMS：参考jeeCMS 基于springcloud的各种优化（zuul, feign, ribbon, eureka, zipkin, s">
-<meta name="keywords" content="plan">
+    <meta name="keywords" content="java源码">
+    <meta name="description" content="java源码阅读的工作开始了，先从简单的入手，看了看ArrayList和Vector两个类。总的来说，两个类很相似，都继承AbstractList，实现了List接口：123public class Vector&amp;lt;E&amp;gt;    extends AbstractList&amp;lt;E&amp;gt;    implements List&amp;lt;E&amp;gt;, RandomAccess, Cloneabl">
+<meta name="keywords" content="java源码">
 <meta property="og:type" content="article">
-<meta property="og:title" content="年中--新的起点">
-<meta property="og:url" content="https://haoziapple.github.io/plan/mid-of-2018/index.html">
+<meta property="og:title" content="java源码阅读(1)--ArrayList和Vector">
+<meta property="og:url" content="https://haoziapple.github.io/programming/read-jdk1/index.html">
 <meta property="og:site_name" content="Wang Hao -- A rampage coder！">
-<meta property="og:description" content="年中计划 人生就是不断的出发  今年已过一半，最近总感觉需要沉下来好好总结了，正好趁着出差的机会，沉淀一下。 年中总结来新公司也已经半年了，先总结一下工作成果：  日志格式统一化：logback+ELK kibana的一些二次开发（换换样式，版本6.2.2） CMS：参考jeeCMS 基于springcloud的各种优化（zuul, feign, ribbon, eureka, zipkin, s">
-<meta property="og:updated_time" content="2018-07-03T12:38:27.489Z">
+<meta property="og:description" content="java源码阅读的工作开始了，先从简单的入手，看了看ArrayList和Vector两个类。总的来说，两个类很相似，都继承AbstractList，实现了List接口：123public class Vector&amp;lt;E&amp;gt;    extends AbstractList&amp;lt;E&amp;gt;    implements List&amp;lt;E&amp;gt;, RandomAccess, Cloneabl">
+<meta property="og:updated_time" content="2018-07-18T10:58:43.380Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="年中--新的起点">
-<meta name="twitter:description" content="年中计划 人生就是不断的出发  今年已过一半，最近总感觉需要沉下来好好总结了，正好趁着出差的机会，沉淀一下。 年中总结来新公司也已经半年了，先总结一下工作成果：  日志格式统一化：logback+ELK kibana的一些二次开发（换换样式，版本6.2.2） CMS：参考jeeCMS 基于springcloud的各种优化（zuul, feign, ribbon, eureka, zipkin, s">
+<meta name="twitter:title" content="java源码阅读(1)--ArrayList和Vector">
+<meta name="twitter:description" content="java源码阅读的工作开始了，先从简单的入手，看了看ArrayList和Vector两个类。总的来说，两个类很相似，都继承AbstractList，实现了List接口：123public class Vector&amp;lt;E&amp;gt;    extends AbstractList&amp;lt;E&amp;gt;    implements List&amp;lt;E&amp;gt;, RandomAccess, Cloneabl">
     
         <link rel="alternate" type="application/atom+xml" title="Wang Hao -- A rampage coder！" href="/atom.xml">
     
@@ -128,7 +128,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">年中--新的起点</div>
+        <div class="flex-col header-title ellipsis">java源码阅读(1)--ArrayList和Vector</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -150,15 +150,15 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title">年中--新的起点</h1>
+        <h1 class="title">java源码阅读(1)--ArrayList和Vector</h1>
         <h5 class="subtitle">
             
-                <time datetime="2018-07-03T11:58:50.000Z" itemprop="datePublished" class="page-time">
-  2018-07-03
+                <time datetime="2018-07-18T09:48:48.000Z" itemprop="datePublished" class="page-time">
+  2018-07-18
 </time>
 
 
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/plan/">个人计划</a></li></ul>
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/programming/">编程</a></li></ul>
 
             
         </h5>
@@ -172,23 +172,16 @@
 
 <div class="container body-wrap">
     
-    <aside class="post-widget">
-        <nav class="post-toc-wrap" id="post-toc">
-            <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#年中计划"><span class="post-toc-number">1.</span> <span class="post-toc-text">年中计划</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#年中总结"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">年中总结</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#近期计划"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">近期计划</span></a></li></ol></li></ol>
-        </nav>
-    </aside>
-    
-<article id="post-plan/mid-of-2018"
+<article id="post-programming/read-jdk1"
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">年中--新的起点</h1>
+        <h1 class="post-card-title">java源码阅读(1)--ArrayList和Vector</h1>
         <div class="post-meta">
-            <time class="post-time" title="2018-07-03 19:58:50" datetime="2018-07-03T11:58:50.000Z"  itemprop="datePublished">2018-07-03</time>
+            <time class="post-time" title="2018-07-18 17:48:48" datetime="2018-07-18T09:48:48.000Z"  itemprop="datePublished">2018-07-18</time>
 
             
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/plan/">个人计划</a></li></ul>
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/programming/">编程</a></li></ul>
 
 
 
@@ -200,33 +193,9 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <h1 id="年中计划"><a href="#年中计划" class="headerlink" title="年中计划"></a>年中计划</h1><blockquote>
-<p>人生就是不断的出发</p>
-</blockquote>
-<p>今年已过一半，最近总感觉需要沉下来好好总结了，正好趁着出差的机会，沉淀一下。</p>
-<h2 id="年中总结"><a href="#年中总结" class="headerlink" title="年中总结"></a>年中总结</h2><p>来新公司也已经半年了，先总结一下工作成果：</p>
-<ul>
-<li>日志格式统一化：logback+ELK</li>
-<li>kibana的一些二次开发（换换样式，版本6.2.2）</li>
-<li>CMS：参考jeeCMS</li>
-<li>基于springcloud的各种优化（zuul, feign, ribbon, eureka, zipkin, springboot-admin）</li>
-<li>extract-service：一个可定制的爬虫，基于配置爬取农药信息（基于webmagic）</li>
-</ul>
-<p>细想下来，工作的输出并没有很多，大量时间花费在一些功能优化和规则制定上了。（也许这正是架构师应该干的活？）</p>
-<h2 id="近期计划"><a href="#近期计划" class="headerlink" title="近期计划"></a>近期计划</h2><p>趁出差，打扰比较少的机会，专注做些个人提升：</p>
-<ul>
-<li>JDK源码阅读，阅读笔记更新到博客上来</li>
-<li>前端angular学习，建一个git pages repo把例子都放上去</li>
-<li>个人的爬虫平台开发，后端用springboot+webmagic，前端用vue。拉几个小伙伴入伙</li>
-</ul>
-<p>另外，发现有一些强需求，但又业务相关性比较小的组件可以提取出来，作为自己的“武器库”：</p>
-<ul>
-<li>定时调度组件，目前看中了一个叫lts的开源项目</li>
-<li>CMS内容管理系统，jeeCMS做的不错，不过也感觉太重了，打算自己写一个轻量级的</li>
-<li>工作流引擎，Activiti好好看看</li>
-<li>日志监控服务，ELK感觉太重了，暂时没有很好的方案想法</li>
-<li>消息总线，要好好构思下了</li>
-</ul>
+            <p>java源码阅读的工作开始了，先从简单的入手，看了看ArrayList和Vector两个类。总的来说，两个类很相似，都继承AbstractList，实现了List接口：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Vector</span>&lt;<span class="title">E</span>&gt;</span></div><div class="line">    <span class="keyword">extends</span> <span class="title">AbstractList</span>&lt;<span class="title">E</span>&gt;</div><div class="line">    <span class="keyword">implements</span> <span class="title">List</span>&lt;<span class="title">E</span>&gt;, <span class="title">RandomAccess</span>, <span class="title">Cloneable</span>, <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ArrayList</span>&lt;<span class="title">E</span>&gt; <span class="keyword">extends</span> <span class="title">AbstractList</span>&lt;<span class="title">E</span>&gt;</span></div><div class="line">        <span class="keyword">implements</span> <span class="title">List</span>&lt;<span class="title">E</span>&gt;, <span class="title">RandomAccess</span>, <span class="title">Cloneable</span>, <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span></div></pre></td></tr></table></figure>
+<p>两个类底层都是维护一个Object[]的数组，初始长度是10。最大的区别是Vector里面的方法都是同步的，添加了synchronized修饰符，效率比较低，所以平时编程中较少使用Vector。<br>依稀记得以前翻thinking in java的时候，里面说Vector是遗留代码，不建议使用，回去以后再翻翻看。</p>
 
         </div>
 
@@ -234,12 +203,12 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2018-07-03T12:38:27.489Z" itemprop="dateUpdated">2018-07-03 20:38:27</time>
+    最后更新时间：<time datetime="2018-07-18T10:58:43.380Z" itemprop="dateUpdated">2018-07-18 18:58:43</time>
 </span><br>
 
 
         
-        <a href="/plan/mid-of-2018/" target="_blank" rel="external">年中--新的起点</a>
+        <a href="/programming/read-jdk1/" target="_blank" rel="external">java源码阅读(1)--ArrayList和Vector</a>
         
     </div>
     <footer>
@@ -259,7 +228,7 @@
 
         <div class="post-footer">
             
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/plan/">plan</a></li></ul>
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java源码/">java源码</a></li></ul>
 
 
             
@@ -269,7 +238,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://haoziapple.github.io/plan/mid-of-2018/&title=《年中--新的起点》 — Wang Hao -- A rampage coder！&pic=https://haoziapple.github.io/images/avtar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://haoziapple.github.io/programming/read-jdk1/&title=《java源码阅读(1)--ArrayList和Vector》 — Wang Hao -- A rampage coder！&pic=https://haoziapple.github.io/images/avtar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -279,22 +248,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://haoziapple.github.io/plan/mid-of-2018/&title=《年中--新的起点》 — Wang Hao -- A rampage coder！&source=tech & my life" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://haoziapple.github.io/programming/read-jdk1/&title=《java源码阅读(1)--ArrayList和Vector》 — Wang Hao -- A rampage coder！&source=tech & my life" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haoziapple.github.io/plan/mid-of-2018/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haoziapple.github.io/programming/read-jdk1/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《年中--新的起点》 — Wang Hao -- A rampage coder！&url=https://haoziapple.github.io/plan/mid-of-2018/&via=https://haoziapple.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《java源码阅读(1)--ArrayList和Vector》 — Wang Hao -- A rampage coder！&url=https://haoziapple.github.io/programming/read-jdk1/&via=https://haoziapple.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://haoziapple.github.io/plan/mid-of-2018/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://haoziapple.github.io/programming/read-jdk1/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -314,21 +283,14 @@
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between">
-  
-    <div class="waves-block waves-effect prev">
-      <a href="/programming/read-jdk1/" id="post-prev" class="post-nav-link">
-        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
-        <h4 class="title">java源码阅读(1)--ArrayList和Vector</h4>
-      </a>
-    </div>
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
   
 
   
     <div class="waves-block waves-effect next">
-      <a href="/hello-world/" id="post-next" class="post-nav-link">
+      <a href="/plan/mid-of-2018/" id="post-next" class="post-nav-link">
         <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">Hello World</h4>
+        <h4 class="title">年中--新的起点</h4>
       </a>
     </div>
   
@@ -429,7 +391,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://haoziapple.github.io/plan/mid-of-2018/&title=《年中--新的起点》 — Wang Hao -- A rampage coder！&pic=https://haoziapple.github.io/images/avtar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://haoziapple.github.io/programming/read-jdk1/&title=《java源码阅读(1)--ArrayList和Vector》 — Wang Hao -- A rampage coder！&pic=https://haoziapple.github.io/images/avtar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -439,22 +401,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://haoziapple.github.io/plan/mid-of-2018/&title=《年中--新的起点》 — Wang Hao -- A rampage coder！&source=tech & my life" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://haoziapple.github.io/programming/read-jdk1/&title=《java源码阅读(1)--ArrayList和Vector》 — Wang Hao -- A rampage coder！&source=tech & my life" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haoziapple.github.io/plan/mid-of-2018/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haoziapple.github.io/programming/read-jdk1/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《年中--新的起点》 — Wang Hao -- A rampage coder！&url=https://haoziapple.github.io/plan/mid-of-2018/&via=https://haoziapple.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《java源码阅读(1)--ArrayList和Vector》 — Wang Hao -- A rampage coder！&url=https://haoziapple.github.io/programming/read-jdk1/&via=https://haoziapple.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://haoziapple.github.io/plan/mid-of-2018/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://haoziapple.github.io/programming/read-jdk1/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -465,7 +427,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACIUlEQVR42u3awW4DIQwE0P7/T6fXHpLtjNm0CjxOFUGBl0qWbfj6isfjcrxan8z8nL/+zhsGBgbGxzKSI17PJBu/Wpnv+8uOGBgYBzCug2YeFttPX83kZ8PAwMC4XpMfZZYaYmBgYNwVcGcJZVLuYmBgYLRFbN7jul7zz7U4BgbGBzLyrvvf//2W+w0MDIyPYjzK0Qbc/JIyD7JP9sLAwNiakQe4/KDt4WYBFwMD4xxGW77Ogm/eMkvC8ZMZDAyMrRnrxWreUJsVrrMfFAMD4wRG25pfCdN5m68OuBgYGBsxZlvOmmJ5+Vr/HzAwMA5gtE8l8gcZKwVqsQsGBsbWjHccqy1rkxZeFJQxMDC2Y7Tt+9kd6eznSBJEDAyMExjrXbq2fE2aerPrBwwMjBMYSbE6u6psZ5YeW2BgYGzHSIJjW1K2obkNuE9mMDAwtma0qV5bdrbla/ssAwMD4xzGXa389WdhefvvyRoMDIytGe3h2qdd96aARbsNAwNjI0abDt7b0J/BitQQAwNjU0aeMrap3owdwTAwMI5hRD25st3frpw9IMPAwNiV8SjHSimbF6Xt92NgYOzNWE/y2hA5a67Vjy0wMDC2Y7SlZn7FmF9MrlxkYmBgnMPIH3i1iWN7qbn0og0DAwOjfISRF6U3BG4MDAyMuNTM08fZXrelhhgYGB/IeEfClwfWti+IgYFxGmNWOibItiXXpp4YGBgHML4B28Fgvu1CeBkAAAAASUVORK5CYII=" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACHElEQVR42u3ay47DIAxA0fz/T7fbShXp9aORwDer0TQBDgvLGF8Xfl4fz/d/Vr+uvv0embzZ8MiQIWNbxuv24UtZvbPikRHI2mTIkDGHQUIhCcH3YZRsEGfLkCFDRm5oEhy7ArQMGTJkkIDLx+GLliFDhozKIZanfbli3ENncRkyZGzI4FX35//+y/2GDBkytmLkwiX/li+rFMRlyJBxNCM6TfSQydsvcmwZMmRMYPAwmiui3S+If/UDJkOGjAGMekpXf7N0OSFDhoyjGXyCXCDuLe1d9X2SIUPGhozK4rquOXniuJxFhgwZRzOipTF+YcCPqWRrUBCXIUPG0Yxo4T5XeuMFvlIlTYYMGWMY/Noy+mt0C8IHbxkyZAxgRBfEy/08BcyFZhkyZMxhPLPEerOFDBkypjFK+mBLBC/ehVclQ4aMQxnRy8tcU1cucIe7M2TIkHEogw/ES/b8mjPXWIZyWxkyZBzK4FNGmyFyDWT8ckKGDBlzGHyCaEjt2qYfwVeGDBnDGF2NXPek0lUlyXBlyJAxhsHfJ8sNpHrglBoIuDJkyNiWUS+ZoX1KhXh+9JUhQ8bZjPplJ+HxUM4P1UmMDBkytmXwxO5/3Q4N7R0yZMgYwMgFPp7GdaV66CwuQ4aM8YzccTQXUgNZrQwZMmQEUzqSPjbPJUOGjAGM6AUknz5akuNsGTJkzGHwoyNP+HoXUSkCypAhY3PGGzAVaphyHNAWAAAAAElFTkSuQmCC" alt="微信分享二维码">
 </div>
 
 
