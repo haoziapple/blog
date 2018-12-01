@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://haoziapple.github.io/"/>
-  <updated>2018-07-18T10:58:43.380Z</updated>
+  <updated>2018-12-01T01:06:17.984Z</updated>
   <id>https://haoziapple.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://haoziapple.github.io/programming/read-jdk1/"/>
     <id>https://haoziapple.github.io/programming/read-jdk1/</id>
     <published>2018-07-18T09:48:48.000Z</published>
-    <updated>2018-07-18T10:58:43.380Z</updated>
+    <updated>2018-12-01T01:06:17.984Z</updated>
     
     <content type="html"><![CDATA[<p>java源码阅读的工作开始了，先从简单的入手，看了看ArrayList和Vector两个类。总的来说，两个类很相似，都继承AbstractList，实现了List接口：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Vector</span>&lt;<span class="title">E</span>&gt;</span></div><div class="line">    <span class="keyword">extends</span> <span class="title">AbstractList</span>&lt;<span class="title">E</span>&gt;</div><div class="line">    <span class="keyword">implements</span> <span class="title">List</span>&lt;<span class="title">E</span>&gt;, <span class="title">RandomAccess</span>, <span class="title">Cloneable</span>, <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span></div></pre></td></tr></table></figure></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ArrayList</span>&lt;<span class="title">E</span>&gt; <span class="keyword">extends</span> <span class="title">AbstractList</span>&lt;<span class="title">E</span>&gt;</span></div><div class="line">        <span class="keyword">implements</span> <span class="title">List</span>&lt;<span class="title">E</span>&gt;, <span class="title">RandomAccess</span>, <span class="title">Cloneable</span>, <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span></div></pre></td></tr></table></figure>
@@ -45,7 +45,7 @@
     <link href="https://haoziapple.github.io/plan/mid-of-2018/"/>
     <id>https://haoziapple.github.io/plan/mid-of-2018/</id>
     <published>2018-07-03T11:58:50.000Z</published>
-    <updated>2018-07-03T12:38:27.489Z</updated>
+    <updated>2018-12-01T01:06:17.983Z</updated>
     
     <content type="html"><![CDATA[<h1 id="年中计划"><a href="#年中计划" class="headerlink" title="年中计划"></a>年中计划</h1><blockquote>
 <p>人生就是不断的出发</p>
@@ -93,38 +93,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://haoziapple.github.io/hello-world/"/>
-    <id>https://haoziapple.github.io/hello-world/</id>
-    <published>2018-07-03T09:46:52.302Z</published>
-    <updated>2018-07-03T09:46:52.303Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>new plan</title>
     <link href="https://haoziapple.github.io/plan/new-plan/"/>
     <id>https://haoziapple.github.io/plan/new-plan/</id>
     <published>2017-08-29T10:01:04.000Z</published>
-    <updated>2018-07-03T09:46:52.309Z</updated>
+    <updated>2017-09-02T14:26:43.105Z</updated>
     
     <content type="html"><![CDATA[<h1 id="个人计划-记录计划，努力执行"><a href="#个人计划-记录计划，努力执行" class="headerlink" title="个人计划:记录计划，努力执行"></a>个人计划:记录计划，努力执行</h1><blockquote>
 <p>hexo new plan “new plan” –path plan/new-plan</p>
@@ -150,7 +123,7 @@
     <link href="https://haoziapple.github.io/life/new-life/"/>
     <id>https://haoziapple.github.io/life/new-life/</id>
     <published>2017-08-29T10:00:30.000Z</published>
-    <updated>2018-07-03T09:46:52.305Z</updated>
+    <updated>2017-09-02T14:26:43.076Z</updated>
     
     <content type="html"><![CDATA[<h1 id="生活-记录生活点滴"><a href="#生活-记录生活点滴" class="headerlink" title="生活:记录生活点滴"></a>生活:记录生活点滴</h1><blockquote>
 <p>hexo new life “new life” –path life/new-life</p>
@@ -176,7 +149,7 @@
     <link href="https://haoziapple.github.io/programming/new-code/"/>
     <id>https://haoziapple.github.io/programming/new-code/</id>
     <published>2017-08-29T09:58:14.000Z</published>
-    <updated>2018-07-03T09:46:52.312Z</updated>
+    <updated>2017-09-02T14:26:43.127Z</updated>
     
     <content type="html"><![CDATA[<h1 id="编程-编程不止"><a href="#编程-编程不止" class="headerlink" title="编程:编程不止"></a>编程:编程不止</h1><blockquote>
 <p>hexo new code “new code” –path programming/new-code</p>
@@ -202,7 +175,7 @@
     <link href="https://haoziapple.github.io/plan/my-learn-plan/"/>
     <id>https://haoziapple.github.io/plan/my-learn-plan/</id>
     <published>2017-07-09T14:36:34.000Z</published>
-    <updated>2018-07-03T09:46:52.308Z</updated>
+    <updated>2017-09-02T14:26:43.102Z</updated>
     
     <content type="html"><![CDATA[<h1 id="学习计划"><a href="#学习计划" class="headerlink" title="学习计划"></a>学习计划</h1>]]></content>
     
@@ -226,7 +199,7 @@
     <link href="https://haoziapple.github.io/programming/frontend-backend/"/>
     <id>https://haoziapple.github.io/programming/frontend-backend/</id>
     <published>2017-07-08T13:44:33.000Z</published>
-    <updated>2018-07-03T09:46:52.311Z</updated>
+    <updated>2017-09-02T14:26:43.125Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><a href="#前后端架构思考">前后端架构思考</a><ul>
@@ -283,7 +256,7 @@
     <link href="https://haoziapple.github.io/life/my-saturday/"/>
     <id>https://haoziapple.github.io/life/my-saturday/</id>
     <published>2017-07-01T13:42:25.000Z</published>
-    <updated>2018-07-03T09:46:52.304Z</updated>
+    <updated>2017-09-02T14:26:43.073Z</updated>
     
     <content type="html"><![CDATA[<h1 id="充实的星期六"><a href="#充实的星期六" class="headerlink" title="充实的星期六"></a>充实的星期六</h1><p>在新买的的华硕笔记本上安装了基本的开发环境：<br>java + node + vs Code + Git</p>
 <p>使用Hexo写博客时发现两个问题：<br>1.自定义的主题需要重新克隆设置<br>2.hexo deploy之后，Git pages之前的提交记录不见了，怀疑是不是换了SSH key的原因</p>
@@ -303,11 +276,38 @@
   </entry>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://haoziapple.github.io/hello-world/"/>
+    <id>https://haoziapple.github.io/hello-world/</id>
+    <published>2017-07-01T13:18:42.351Z</published>
+    <updated>2017-07-01T13:18:42.351Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>My First Blog</title>
     <link href="https://haoziapple.github.io/My-First-Blog/"/>
     <id>https://haoziapple.github.io/My-First-Blog/</id>
     <published>2017-06-30T08:46:01.000Z</published>
-    <updated>2018-07-03T09:46:52.302Z</updated>
+    <updated>2017-07-01T13:18:42.351Z</updated>
     
     <content type="html"><![CDATA[<h1 id="博客重开"><a href="#博客重开" class="headerlink" title="博客重开"></a>博客重开</h1><p>感谢我的老婆玥玥，博客又重新开了起来<br>希望能一直写下去~</p>
 <figure class="image-bubble">
